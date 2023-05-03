@@ -1,0 +1,21 @@
+{
+  "name": "cypress-express-mark",
+  "version": "1.0.0",
+  "description": "E2E test project on Mark L",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress"
+  },
+  "keywords": [
+    "cypress",
+    "e2e",
+    "qaexperience",
+    "test",
+    "automation"
+  ],
+  "author": "Talita Carvalho",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^12.2.0"
+  }
+}

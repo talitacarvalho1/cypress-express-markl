@@ -1,0 +1,75 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_source": "apimatic.transformer",
+  "resources": [
+    {
+      "name": "Mark L by QAx",
+      "_type": "workspace",
+      "_id": "wrk_ce541b1eff47426a8172f356646a05f9",
+      "description": ""
+    },
+    {
+      "name": "New task",
+      "method": "POST",
+      "url": "http://localhost:3333/tasks",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"name\": \"Comprar ketchup\",\n\t\"is_done\": true\n}"
+      },
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "disabled": false
+        }
+      ],
+      "authentication": {},
+      "_type": "request",
+      "_id": "req_20acd23c482d4343a3ac75c6961367aa",
+      "parentId": "wrk_ce541b1eff47426a8172f356646a05f9",
+      "description": ""
+    },
+    {
+      "name": "Update task",
+      "method": "PUT",
+      "url": "http://localhost:3333/tasks/8b161cff-5485-4a06-aaa3-5cde44d34es",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"is_done\": false\n}"
+      },
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "disabled": false
+        }
+      ],
+      "authentication": {},
+      "_type": "request",
+      "_id": "req_fbbaaa1a4b9c47a6bb45d4b9297a4f51",
+      "parentId": "wrk_ce541b1eff47426a8172f356646a05f9",
+      "description": ""
+    },
+    {
+      "name": "Task list",
+      "method": "GET",
+      "url": "http://localhost:3333/tasks",
+      "authentication": {},
+      "_type": "request",
+      "_id": "req_23c9aa3e46b74a71ab01fc8a9bcbdf60",
+      "parentId": "wrk_ce541b1eff47426a8172f356646a05f9",
+      "description": ""
+    },
+    {
+      "name": "Remove task",
+      "method": "DELETE",
+      "url": "http://localhost:3333/tasks/dd90cf90-a3f3-4dbf-af12-66e666ac9012",
+      "authentication": {},
+      "_type": "request",
+      "_id": "req_7dd6511f9bd546fcad71baa0d8a0c97d",
+      "parentId": "wrk_ce541b1eff47426a8172f356646a05f9",
+      "description": ""
+    }
+  ]
+}
